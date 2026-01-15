@@ -49,6 +49,9 @@ Om du vill skapa egna storleksvariabler för typsnitt och avstånd så kan du g�
 
 Beskriv hur logotypen ska användas, inklusive storlek, placering och skyddszon.
 Du kan skapa en logotyp i ett ritprogram och exportera den som en bildfil för att inkludera här.
+
+**Tips**: Skapa en SVG bild för din logotyp, då kan du styra färgerna med CSS och den blir skalbar utan kvalitetsförlust. Du kan då fortsätta använda samma bild även om du ändrar färgerna i din grafiska profil.
+
 Om du vill så går det även att skapa logotypen med AI. Du kan då använda en prompt som beskriver hur logotypen ska se ut. Det är då viktigt att du specifierar bildtypen, transparent bakgrund osv. samt att du vill att den ska generera en symbol och en version med text.
 
 > I need you to generate 1 example logotype. I want you to produce the logotype in 2 different images, one with just the icon and one with the icon and text...
