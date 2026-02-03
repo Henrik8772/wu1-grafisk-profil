@@ -36,10 +36,10 @@
     --space-s-l: clamp(1.125rem, 0.5625rem + 2.5vw, 2.5rem);
 
     /* Variabler för färger */
-    --primary-color: #3498db;
-    --secondary-color: #2ecc71;
-    --color-dark: #333;
-    --color-light: #f9f9f9;
+    --primary-color: #2E1A2B;
+    --secondary-color: #2B2B2E;
+    --color-dark: #2B2B2E;
+    --color-light: #F5CCE8;
 
     /* Variabler för typografi */
     --type-heading: sans-serif;
@@ -73,10 +73,12 @@ h1 {
     font-size: var(--step-4);
     font-weight: 800;
 }
+
 h2 {
     font-size: var(--step-3);
     font-weight: 600;
 }
+
 h3 {
     font-size: var(--step-2);
     font-weight: 600;
@@ -108,7 +110,7 @@ img {
     padding-bottom: var(--region-space, var(--space-xl-2xl));
 }
 
-.flow > * + * {
+.flow>*+* {
     margin-top: var(--flow-space, 1em);
 }
 
@@ -133,8 +135,21 @@ img {
 }
 
 .primary {
-    color: var(--primary-color);
-    fill: var(--primary-color);
+    color: var(--color-dark);
+    fill: var(--color-dark);
+}
+
+.dark {
+    color: var(--color-dark);
+}
+
+.dark-bg {
+    background-color: var(--color-dark);
+}
+
+.text-on-primary {
+    color: var(--color-light);
+    fill: var(--color-light);
 }
 
 .secondary {
@@ -206,7 +221,7 @@ img {
 }
 
 .color-swatches {
-    --region-space:var(--space-m-l);
+    --region-space: var(--space-m-l);
     display: flex;
     flex-wrap: wrap;
     gap: var(--gutter);
@@ -217,5 +232,3 @@ img {
     /* margin-bottom: var(--space-m); */
     width: calc(50% - var(--gutter) / 2);
 }
-
-
