@@ -37,13 +37,16 @@
 
     /* Variabler för färger */
     --primary-color: #2E1A2B;
+    --secondary-primary-color: #6B2C3E;
     --secondary-color: #2B2B2E;
-    --color-dark: #2B2B2E;
+    --second-secondary-color: #4A2040;
+    --color-dark: #9F6BA0;
+    --color-pink: #C880B7;
     --color-light: #F5CCE8;
 
     /* Variabler för typografi */
-    --type-heading: sans-serif;
-    --type-body: serif;
+    --type-heading: "Playfair Display", serif;
+    --type-body: "Cormorant Garamond", serif;
     --line-height-body: 1.6;
     --line-height-heading: 1.1;
 
@@ -55,7 +58,7 @@
 /* Grundläggande stilar för body och rubriker */
 body {
     font-family: var(--type-body);
-    color: var(--color-dark);
+    color: var(--primary-color);
     background-color: var(--color-light);
     line-height: var(--line-height-body);
     font-size: var(--step-1);
@@ -135,8 +138,8 @@ img {
 }
 
 .primary {
-    color: var(--color-dark);
-    fill: var(--color-dark);
+    color: var(--primary-color);
+    fill: var(--primary-color);
 }
 
 .dark {
@@ -167,6 +170,31 @@ img {
 
 .dark-bg {
     background-color: var(--color-dark);
+}
+
+.second-secondary-bg {
+    background-color: var(--second-secondary-color);
+}
+
+.second-secondary {
+    color: var(--second-secondary-color);
+    fill: var(--second-secondary-color);
+}
+
+.pink {
+    color: var(--color-pink)
+}
+
+.pink-bg {
+    background-color: var(--color-pink);
+}
+
+.secondary-primary-bg {
+    background-color: var(--secondary-primary-color);
+}
+
+.secondary-primary {
+    color: var(--secondary-primary-color);
 }
 
 /* Knappar */
