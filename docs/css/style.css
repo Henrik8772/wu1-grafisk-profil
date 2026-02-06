@@ -195,6 +195,7 @@ img {
 
 .secondary-primary {
     color: var(--secondary-primary-color);
+    fill: var(--secondary-primary-color);
 }
 
 /* Knappar */
@@ -241,6 +242,11 @@ img {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.hamburger-menu {
+    fill: var(--primary-color);
+    color: var(--primary-color);
 }
 
 .arrow-down:hover,
